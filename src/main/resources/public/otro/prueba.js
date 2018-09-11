@@ -1,4 +1,4 @@
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <h1>Hola , mundo react</h1>,
   document.getElementById('root')
 );
