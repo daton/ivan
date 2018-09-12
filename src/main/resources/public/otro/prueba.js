@@ -1,4 +1,11 @@
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hola!, {this.props.nombre}</h1>;
+  }
+}
+
+const element = <Welcome nombre="Campitos" />;
 ReactDOM.render(
-  <h1>Hola , mundo react</h1>,
+  element,
   document.getElementById('root')
 );
